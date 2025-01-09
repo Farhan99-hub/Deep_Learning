@@ -1,0 +1,6 @@
+● Built a CNN model to classify face images as AI-generated or real using a high-quality Kaggle dataset.  
+● Applied data augmentation (rotation, shift, shear, zoom, horizontal flip) and preprocessing (resize to 244x244, RGB conversion) to enhance model performance.  
+● Split data into training (70%), testing (15%), and validation (15%) sets.  
+● Trained the model with Adam optimizer and categorical cross-entropy loss, using early stopping to prevent overfitting.  
+● Achieved ~93% test accuracy and generated a classification report with precision, recall, and F1-score.  
+● Tools Used: Python, TensorFlow, Keras, NumPy, Matplotlib, Seaborn.  
